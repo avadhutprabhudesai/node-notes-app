@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "Notes app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample follow along project for a Nodejd Udemy course",
   "main": "index.js",
   "scripts": {
     "test": "jest --watch",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avadhutprabhudesai/node-template.git"
+    "url": "git+https://github.com/avadhutprabhudesai/node-notes-app.git"
   },
   "author": "Avadhut Prabhudesai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/avadhutprabhudesai/node-template/issues"
+    "url": "https://github.com/avadhutprabhudesai/node-notes-app/issues"
   },
-  "homepage": "https://github.com/avadhutprabhudesai/node-template#readme",
+  "homepage": "https://github.com/avadhutprabhudesai/node-notes-app#readme",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/eslint-parser": "^7.13.8",
@@ -69,6 +69,8 @@
     }
   },
   "dependencies": {
-    "ramda": "^0.27.1"
+    "chalk": "^2.4.1",
+    "ramda": "^0.27.1",
+    "validator": "^13.7.0"
   }
 }
